@@ -1,0 +1,121 @@
+body {
+    /* background-color: lightblue; */
+    margin: 0px;
+    background-image: linear-gradient(150deg,lightblue,lightyellow, lightgreen);
+}
+
+.leftNavigationBar {
+    width: 18%;
+    height: 99%;
+    float: left;
+}
+
+.leftIcons {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 0px 60px 60px 0px;
+    font-size: 30px;
+    background: yellow;
+}
+
+.leftIcons:hover{
+    cursor: pointer;
+    background:yellowgreen;
+}
+
+.notesDiv {
+    border: 2px black solid;
+    border-radius: 5px;
+    background: linear-gradient(150deg, goldenrod,white, green);
+    /* position: relative; */
+    /* float: right; */
+    width: 80%;
+    margin: 10px;
+    display: inline-block;
+    height: 96%;
+}
+
+.userIcon {
+    float: right;
+    width:4%;
+    height:7%;
+    padding:5px;
+    border-radius:50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+        margin: 2px;
+    cursor:pointer;
+    display: none;
+    position: relative;
+}
+
+.notesView {
+    width: 98%;
+    margin-left: 10px;
+    height: 85%;
+    overflow: auto;
+    position: relative;
+}
+
+#mainBlock {
+    width: 20%;
+    height: 70%;
+    margin: 10px;
+    text-align: center;
+    border: 2px grey solid;
+    border-radius: 10px;
+    box-shadow: yellow 5px 5px 5px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.upperSection {
+    width: 95%;
+    height: 80%;
+    border-bottom: 2px black dashed;
+    padding: 6px;
+    font-size: 15px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.lowerSection {
+    width: 95%;
+    height: 10%;
+    padding: 6px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.setImageClass {
+    width: 98%;
+    height: auto;
+    padding:5px;
+    border-radius: 5px;
+}
+
+
+.iconsMain {
+    width:25px;
+    height:25px;
+    background: lightyellow;
+    margin: 5px;
+    padding:10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.iconsMain:hover{
+    background: lightgreen;
+}
+
+.iconsClass {
+    display:none;
+}
+
+.doneClass {
+    background-color: lightgreen;
+}

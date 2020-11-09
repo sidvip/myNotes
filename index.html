@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" href="./public/images/pageIcon.jpg">
+    <link rel="stylesheet" type="text/css" href="./public/css/loginPrompt.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/newNote.css">
+    <title>Note It</title>
+</head>
+
+<body>
+    <div class='loginDiv' id='loginPromptId'>
+        <label class='labelClass'>Username : </label>
+        <input class='inputClass' type='text' id='userName'>
+        <br>
+        <label class='labelClass'>Password : </label>
+        &nbsp;<input class='inputClass' type='password' id='password'>
+        <br>
+        <button class='buttonClass' onclick=doLogin()> Login </button>
+    </div>
+
+    <div id='backgroundBody'>
+        <div class='leftNavigationBar'>
+            <div class="home leftIcons"> Home </div>
+            <div class="createNote leftIcons"> Create Note</div>
+            <div class="doneTask leftIcons"> Done Tasks</div>
+        </div>
+
+        <div class='notesDiv'>
+            <div class='userIcon'>S</div>
+            <div class='iconsClass'>
+                <img src='./public/images/delete.png' class="iconsMain delete" onclick='operateNotes(this)'>
+                <img src='./public/images/done.png' class="iconsMain done" onclick='operateNotes(this)'>
+            </div>
+            <div class='notesView'></div>
+        </div>
+    </div>
+
+    <div class='newNote'></div>
+
+
+    <script type="text/javascript" src="./public/scripts/loginPrompt.js"></script>
+    <script type="text/javascript" src="./public/scripts/navBarEvents.js"></script>
+    <script type="text/javascript" src="./public/scripts/mainPane.js"></script>
+</body>
+
+</html>
